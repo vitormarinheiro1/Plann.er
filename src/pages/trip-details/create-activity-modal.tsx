@@ -28,7 +28,7 @@ export function CreateActivityModal({
 
     window.document.location.reload()
   }
-  
+
 
   return (
     <div className="fixed inset-0 bg-black/60 flex items-center justify-center">
@@ -45,7 +45,7 @@ export function CreateActivityModal({
             Todos convidados podem visualizar as atividades.
           </p>
         </div>
-        
+
         <form onSubmit={createActivity} className="space-y-3">
           <div className="h-14 px-4 bg-zinc-950 border border-zinc-800 rounded-lg flex items-center gap-2">
             <Tag className="text-zinc-400 size-5" />
